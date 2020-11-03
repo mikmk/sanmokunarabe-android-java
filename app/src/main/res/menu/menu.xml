@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/gameReset"
+        android:orderInCategory="0"
+        android:title="やりなおし"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/gameContinue"
+        android:orderInCategory="1"
+        android:title="継続"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/backToTop"
+        android:orderInCategory="3"
+        android:title="トップ画面に戻る"
+        app:showAsAction="never" />
+
+</menu>
